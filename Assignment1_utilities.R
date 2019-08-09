@@ -6,7 +6,7 @@ power_consumption <- read.table("exdata_data_household_power_consumption/househo
 
 ## change date and from character vectors to time and date. 
 power_consumption$Date <- as.Date(power_consumption$Date, "%d/%m/%Y")
-power_consumption$Time <- format(power_consumption$Time, format= "%H:%M:%S")
+##power_consumption$Time <- format(power_consumption$Time, format= "%H:%M:%S")
 
 ## Subset the required dates
 Power_subset <- subset(power_consumption, Date == "2007-02-01" | Date == "2007-02-02")
