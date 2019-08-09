@@ -3,10 +3,6 @@ title: "Readme"
 output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Readme
 This is a readme file for the week 1 assignment from the exploratory analysis course. 
 
