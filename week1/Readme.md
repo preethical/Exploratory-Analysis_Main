@@ -17,3 +17,7 @@ Description: Measurements of electric power consumption in one household with a 
 
 ## 
 Based on this dataset and for the given time period, 4 graphs were made and are in this folder.
+I have created an assignment 1 utilities files which has code that used in all the other plotting files. It has been sourced in each of these files. This is to decrease the redundancies in the different files.
+All the code works on the assumption that the base dataset provided was downloaded and extracted into your working directory. 
+
+---
