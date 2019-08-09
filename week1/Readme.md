@@ -15,7 +15,7 @@ Description: Measurements of electric power consumption in one household with a 
 ## 
 Based on this dataset and for the given time period ( a 2-day period in February, 2007), 4 graphs were created as required.
 
-As a part of the assignment, I have created an assignment_1_utilities file which has code that is repeatedly used in plotting all the other graphs. It has been sourced into each of these files. This was done to decrease the redundant code in the different files.
+As a part of the assignment, I have created an assignment_1_utilities file (placed in https://github.com/preethical/Exploratory-Analysis_Main) which has code that is repeatedly used in plotting all the other graphs. It has been sourced into each of these files. This was done to decrease the redundant code in the different files.
 
 All the code works on the assumption that the dataset provided was downloaded and extracted into your working directory. 
 
