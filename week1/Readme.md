@@ -1,19 +1,22 @@
 ---
-title: "Readme"
+title: "Readme document for week 1 assignment"
 output: github_document
 ---
 
-## Readme
-This is a readme file for the week 1 assignment from the exploratory analysis course. 
+## Readme for Week1 Assignment
 
-This assignment uses data from the UC Irvine Machine Learning Repository, a popular repository for machine learning datasets. In particular, we will be using the “Individual household electric power consumption Data Set” which I have made available on the course web site:
+This is a readme file for the week-1 programming assignment from the exploratory analysis course (a part of the data science specialization). 
 
-Dataset: Electric power consumption [20Mb]
+This assignment uses data from the UC Irvine Machine Learning Repository. In particular, the data used is the “Individual household electric power consumption Data Set” which is available here: https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption
+
+The Dataset: Electric power consumption
 Description: Measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years. Different electrical quantities and some sub-metering values are available.
 
 ## 
-Based on this dataset and for the given time period, 4 graphs were made and are in this folder.
-I have created an assignment 1 utilities files which has code that used in all the other plotting files. It has been sourced in each of these files. This is to decrease the redundancies in the different files.
-All the code works on the assumption that the base dataset provided was downloaded and extracted into your working directory. 
+Based on this dataset and for the given time period ( a 2-day period in February, 2007), 4 graphs were created as required.
+
+As a part of the assignment, I have created an assignment_1_utilities file which has code that is repeatedly used in plotting all the other graphs. It has been sourced into each of these files. This was done to decrease the redundant code in the different files.
+
+All the code works on the assumption that the dataset provided was downloaded and extracted into your working directory. 
 
 ---
