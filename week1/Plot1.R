@@ -16,7 +16,7 @@ Power_subset <- subset(power_consumption, Date == "2007-02-01" | Date == "2007-0
 ##Power_subset <- power_consumption %>% filter(between( Date, 2007-02-01, 2007-02-02))
 ##Sub_set <- power_consumption[(power_consumption$Date >= "2007-02-01") & (power_consumption$Date <= "2007-02-02")]
 
-png(plot1.png, width=480, height=480)
+png("plot1.png", width=480, height=480)
 hist(Power_subset$Global_active_power, col = "Red", border ="black", main = "Global Active Power", xlab ="Global active power(kilowatts)", ylab = "frequency")
 dev.off()
 
